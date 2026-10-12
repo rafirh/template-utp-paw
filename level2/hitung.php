@@ -23,7 +23,7 @@ $subtotal = $harga * $jumlah;
 
 // Hitung Diskon
 $diskon = 0;
-if ($kategori === "Member" && $jumlah >= 4) {
+if ($kategori === "Member" && $jumlah >= 3) {
     $diskon = $subtotal * 0.10;
 }
 
